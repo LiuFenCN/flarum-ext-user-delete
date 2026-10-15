@@ -1,5 +1,5 @@
 /**
- * 后台「删除用户」按钮（cathi/flarum-user-delete）—— 手写 admin dist，不依赖 webpack。
+ * 后台「删除用户」按钮（liufencn/flarum-user-delete）—— 手写 admin dist，不依赖 webpack。
  *
  * 作用：在后台「用户」页的「编辑用户」弹窗底部注入一个删除按钮
  *   （Flarum 2.0 核心 EditUserModal 没有删除按钮，但 DELETE /api/users/{id} 后端可用）。
@@ -150,8 +150,8 @@
             },
           },
           modal.cathiConfirmDelete
-            ? t('cathi-user-delete.admin.confirm_button', '确认删除？此操作不可撤销')
-            : t('cathi-user-delete.admin.delete_button', '删除用户')
+            ? t('liufencn-user-delete.admin.confirm_button', '确认删除？此操作不可撤销')
+            : t('liufencn-user-delete.admin.delete_button', '删除用户')
         ),
         -20
       );

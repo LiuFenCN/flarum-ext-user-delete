@@ -1,4 +1,4 @@
-# 删除用户入口（cathi/flarum-user-delete）
+# 删除用户入口（liufencn/flarum-user-delete）
 
 给 Flarum 2.x 后台补回「**删除用户**」按钮。
 
@@ -38,12 +38,12 @@ Flarum 2.0 重写了后台用户管理，「编辑用户」弹窗（`EditUserMod
 ## 安装
 
 ```bash
-composer require cathi/flarum-user-delete
-php flarum extension:enable cathi-user-delete
+composer require liufencn/flarum-user-delete
+php flarum extension:enable liufencn-user-delete
 php flarum cache:clear
 ```
 
-也可以手动部署：把本仓库放到 `extensions/cathi-user-delete/`，再在后台启用。扩展 id 为 `cathi-user-delete`。
+也可以手动部署：把本仓库放到 `extensions/liufencn-user-delete/`，再在后台启用。扩展 id 为 `liufencn-user-delete`。
 
 启用后打开「后台 → 用户」，点任意用户进入编辑弹窗，底部即可看到红色「删除用户」按钮（对 root、对自己、对无权限目标不出现）。
 

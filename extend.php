@@ -1,7 +1,7 @@
 <?php
 
 /**
- * 后台「删除用户」入口（cathi/flarum-user-delete）
+ * 后台「删除用户」入口（liufencn/flarum-user-delete）
  *
  * 背景：Flarum 2.0 核心的「编辑用户」弹窗（common/components/EditUserModal）没有删除按钮，
  * 但后端能力齐全：
